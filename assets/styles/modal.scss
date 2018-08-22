@@ -1,0 +1,66 @@
+@import "../../assets/styles/colors.scss";
+
+.modal-dialog {
+  width: 100%;
+  height:100%;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  animation: pulse 0.5s;
+  -webkit-transition-duration: 5ms;
+  transition-duration: 5ms;
+  background: #020202ab;
+ 
+
+  .modal-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0px 20px 0px;
+  }
+  .forms {
+    width: 340px;
+    text-align: right;
+    margin: auto;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    background: $white;
+    margin-top: 25px;
+    border: 1px solid #cec6c6;
+    resize: none;
+    padding-left:15px; 
+  }
+
+  input[type="text"] {
+    height: 40px;
+  }
+
+  .modal_button {
+    width: 144px;
+    height: 36px;
+    font-family: "Montserrat";
+    background: $blue;
+    color: $white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 300;
+  }
+
+  ::placeholder {
+    color: $black;
+    font-family: "Montserrat";
+  }
+
+  .close {
+    font-size: 48px;
+    font-weight: 700;
+    -webkit-box-shadow: none;
+    margin-top: 150px;
+    margin-left: 300px;
+  
+  }
+}
